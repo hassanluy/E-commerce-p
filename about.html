@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Oswald:wght@300;500;700&family=Poppins:wght@300;500;700&family=Smooch&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aca5d70fcb.js" crossorigin="anonymous"></script>
+<link rel="icon" href="/imgs/idea.png">
+    <title>E-Commerce WebSite</title>
+</head>
+<body>
+    <section class="about home">
+        <nav>
+        <div class="logo">
+            <img src="imgs/logo.png">
+        </div>
+        <i onclick="menuAppear()" class="fa-solid fa-bars"></i>
+        <div class="links">
+            <i class="fa-solid fa-arrow-right" onclick="closeMenu()"></i>
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="course.html">COURSE</a>
+                </li>
+                <li>
+                    <a href="blog.html">BLOG</a>
+                </li>
+                <li>
+                    <a href="">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero sub-hero">
+        <h1>about us</h1>
+    </div>
+    </section>
+
+
+
+
+<div class="sub-about-us">
+<div class="row">
+    <div class="sub-about-us-col">
+        <h1>We Are The World's Largest University</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, reprehenderit. Sunt perferendis eos cum architecto mollitia id ipsa exercitationem, iste incidunt officiis consequatur qui, distinctio dignissimos eligendi! Possimus, minus ducimus?</p>
+        <a href="" class="hero-btn">Explore now</a>
+    </div>
+    <div class="sub-about-us-col-img">
+        <img src="/imgs/about.jpg" alt="">
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- about us section  -->
+<footer class="about-us">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi mollitia voluptate illo maxime, dolorum, consequatur rem pariatur id tempora dignissimos explicabo rerum eius earum </p>
+    <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p class="copyright">Made With <i class="fa-solid fa-heart"></i> by HaSaN</p>
+</footer>
+
+<script>
+    var menu =document.querySelector(".links");
+    var bars = document.querySelector(".fa-bars");
+    function menuAppear(){
+        menu.style.display="block"
+        menu.style.right= "0";
+        bars.style.display="none"
+    }
+    function closeMenu(){
+        menu.style.right="-50%";
+        menu.style.display="none"
+        bars.style.display="inline-block";
+    }
+</script>
+</body>
+</html>

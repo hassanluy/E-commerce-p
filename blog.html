@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Oswald:wght@300;500;700&family=Poppins:wght@300;500;700&family=Smooch&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aca5d70fcb.js" crossorigin="anonymous"></script>
+<link rel="icon" href="/imgs/idea.png">
+    <title>E-Commerce WebSite</title>
+</head>
+<body>
+    <section class="home about">
+        <nav>
+        <div class="logo">
+            <img src="imgs/logo.png">
+        </div>
+        <i onclick="menuAppear()" class="fa-solid fa-bars"></i>
+        <div class="links">
+            <i class="fa-solid fa-arrow-right" onclick="closeMenu()"></i>
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="course.html">COURSE</a>
+                </li>
+                <li>
+                    <a href="blog.html">BLOG</a>
+                </li>
+                <li>
+                    <a href="">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero blog-heading">
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </div>
+    </section>
+
+
+<section class="certificate">
+<div class="cert-1">
+    <img src="imgs/certificate.jpg" alt="">
+    <h1>Our Certificat & online programs for 2021</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem, quasi sunt dolorum quos unde magnam quam nostrum maiores neque similique facilis aliquid aliquam cum eos, quis cumque doloribus ipsa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore assumenda, laborum ipsum eligendi rem ad eius reiciendis ratione dolores ut modi optio nostrum itaque veritatis neque quibusdam ducimus? Hic, nam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem, quasi sunt dolorum quos unde magnam quam nostrum maiores neque similique facilis aliquid aliquam cum eos, quis cumque doloribus ipsa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore assumenda, laborum ipsum eligendi rem ad eius reiciendis ratione dolores ut modi optio nostrum itaque veritatis neque quibusdam ducimus? Hic, nam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem, quasi sunt dolorum quos unde magnam quam nostrum maiores neque similique facilis aliquid aliquam cum eos, quis cumque doloribus ipsa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore assumenda, laborum ipsum eligendi rem ad eius reiciendis ratione dolores ut modi optio nostrum itaque veritatis neque quibusdam ducimus? Hic, nam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolorem, quasi sunt dolorum quos unde magnam quam nostrum maiores neque similique facilis aliquid aliquam cum eos, quis cumque doloribus ipsa? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore assumenda, laborum ipsum eligendi rem ad eius reiciendis ratione dolores ut modi optio nostrum itaque veritatis neque quibusdam ducimus? Hic, nam?
+    </p>
+    <div class="comment">
+        <h3>Leave a Comment</h3>
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea  rows="5" placeholder="leave your comment here"></textarea>
+        <a href="" class="hero-btn">Post Comment</a>
+    </div>
+</div>
+<div class="cert-2">
+    <h3>Post Gradiuation</h3>
+    <ul>
+        <li>
+            <span>JavaCript</span>
+            <span>50</span>
+        </li>
+        <li>
+            <span>Html</span>
+            <span>98</span>
+        </li>
+        <li>
+            <span>css</span>
+            <span>88</span>
+        </li>
+        <li>
+            <span>jquery</span>
+            <span>90</span>
+        </li>
+        <li>
+            <span>bootstrap</span>
+            <span>100</span>
+        </li>
+        <li>
+            <span>react</span>
+            <span>56</span>
+        </li>
+        <li>
+            <span>ES6</span>
+            <span>95</span>
+        </li>
+    </ul>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="about-us">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi mollitia voluptate illo maxime, dolorum, consequatur rem pariatur id tempora dignissimos explicabo rerum eius earum </p>
+    <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p class="copyright">Made With <i class="fa-solid fa-heart"></i> by HaSaN</p>
+</footer>
+
+<script>
+    var menu =document.querySelector(".links");
+    var bars = document.querySelector(".fa-bars");
+    function menuAppear(){
+        menu.style.display="block"
+        menu.style.right= "0";
+        bars.style.display="none"
+    }
+    function closeMenu(){
+        menu.style.right="-50%";
+        menu.style.display="none"
+        bars.style.display="inline-block";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/imgs/idea.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Oswald:wght@300;500;700&family=Poppins:wght@300;500;700&family=Smooch&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aca5d70fcb.js" crossorigin="anonymous"></script>
+    <title>E-Commerce WebSite</title>
+</head>
+<body>
+    <section class="home about">
+        <nav>
+        <div class="logo">
+            <img src="imgs/logo.png">
+        </div>
+        <i onclick="menuAppear()" class="fa-solid fa-bars"></i>
+        <div class="links">
+            <i class="fa-solid fa-arrow-right" onclick="closeMenu()"></i>
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="course.html">COURSE</a>
+                </li>
+                <li>
+                    <a href="blog.html">BLOG</a>
+                </li>
+                <li>
+                    <a href="contact-us.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+        <h1>Contact Us</h1>
+    </div>
+    </section>
+
+<!-- location -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d832.9292920515769!2d44.372950182860706!3d33.37844925616942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x155779288c6b170b%3A0x967f9f3e9278988c!2z2YXYrNmF2Lkg2KfZhNi12YHZiNipINmE2YTZh9iv2KfZitinINmIINin2YTZhdmG2LLZhNmK2Kkg2Ygg2KfZhNmH2YjYp9iq2YE!5e0!3m2!1sen!2siq!4v1646235414290!5m2!1sen!2siq" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<!-- contact us section  -->
+<section class="contact-us">
+    <div>
+        <div class="contact-us-sub-row">
+            <span>
+                <i class="fa-solid fa-house"></i>
+            </span>
+            <span>
+                <h5>DOBBAT STREET,AL SFOOA BUILDING</h5>
+                <p>IN FRONT OF BROSTED AMMO</p>
+            </span>
+        </div>
+        <div class="contact-us-sub-row">
+            <span>
+                <i class="fa-solid fa-phone"></i>
+            </span>
+            <span>
+                <h5>DOBBAT STREET,AL SFOOA BUILDING</h5>
+                <p>IN FRONT OF BROSTED AMMO</p>
+            </span>
+        </div>
+        <div class="contact-us-sub-row">
+            <span>
+                <i class="fa-solid fa-envelope"></i>            </span>
+            <span>
+                <h5>DOBBAT STREET,AL SFOOA BUILDING</h5>
+                <p>IN FRONT OF BROSTED AMMO</p>
+            </span>
+        </div>
+    </div>
+    <form class="contact-form">
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter Your email">
+        <input type="text" placeholder="enter the subject">
+        <textarea rows="8" placeholder="The message"></textarea>
+        <button type="submit" class="hero-btn">Send Message</button>
+    </form>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="about-us">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi mollitia voluptate illo maxime, dolorum, consequatur rem pariatur id tempora dignissimos explicabo rerum eius earum </p>
+    <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <p class="copyright">Made With <i class="fa-solid fa-heart"></i> by HaSaN</p>
+</footer>
+
+<script>
+    var menu =document.querySelector(".links");
+    var bars = document.querySelector(".fa-bars");
+    function menuAppear(){
+        menu.style.display="block"
+        menu.style.right= "0";
+        bars.style.display="none"
+    }
+    function closeMenu(){
+        menu.style.right="-50%";
+        menu.style.display="none"
+        bars.style.display="inline-block";
+    }
+</script>
+</body>
+</html>
